@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TurKLoJeN Test Website</title>
+    <style>
+        /* Genel stil ayarları */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* Ana başlık stil ayarları */
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        /* Animasyon tanımı */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>TurKLoJeN Test Website</h1>
+
+    <script>
+        // Basit bir JavaScript örneği
+        document.querySelector('h1').addEventListener('click', function() {
+            alert('Flutter ile geliştirmekte olduğum wallpaper uygulamasındaki resimleri depolamak için hazırladığım repodur.');
+        });
+    </script>
+</body>
+</html>
